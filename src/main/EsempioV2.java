@@ -37,12 +37,12 @@ public class EsempioV2
         
         Calculator c3 =                 (a,b) -> 
                                         {
-                                            return a-b;
+                                            int res = a-b;
+                                            return res;
                                         };
 
 
-
-
+        Calculator c4 = (a,b) -> /*return*/a-b;                                
         //sintassi chiamata LAMBDA
         //Una sintassi concisa per fare OVERRIDE dell'unico metodo astratto di una interfaccia funzionale
         //fa quello sopra
